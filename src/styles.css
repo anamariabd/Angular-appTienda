@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+
+    background-image: radial-gradient(circle at 50% -20.71%, #fe8f62 0, #ff8564 8.33%, #ff7967 16.67%, #ff6c6b 25%, #fd5e6e 33.33%, #f84e73 41.67%, #f23c78 50%, #ea287e 58.33%, #e10e86 66.67%, #d6008f 75%, #ca0098 83.33%, #bb00a3 91.67%, #aa00ae 100%);
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.card{
+    margin-top: 20px;
+}
+
+.card-body{
+    padding-top: 90px;
+}
+
+.center{
+    
+    background-color: beige;
+    width: 40%;
+    margin: 20px auto;
+    height: 80%;
+    align-items: center;
+}
